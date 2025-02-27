@@ -10,6 +10,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
   templateUrl: './queue-ticket.component.html',
   styleUrl: './queue-ticket.component.css'
 })
+
 export class QueueTicketComponent {
   constructor(private router: Router) { }
   getTicket() {
