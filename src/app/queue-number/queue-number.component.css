@@ -1,0 +1,58 @@
+mat-toolbar {
+  background-color: #4caf50; /* Green color */
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.title-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+}
+
+.queue-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+h1 {
+  font-size: 10em;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+  align-items: center;
+  gap: 10px;
+}
+
+.bottom-button {
+  padding: 20px 40px;
+  border-radius: 20px;
+  margin: auto; /* Center the button */
+  width: 400px; /* Make the button 1/3 of the page width */
+  height: "auto"; /* Make the button 20% of the page height */
+  background-color: #4472c4; /* Green color */
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+}

@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+mat-toolbar {
+  background-color: #4caf50; /* Green color */
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-button {
+  padding: 20px 40px;
+  border-radius: 20px;
+  margin: auto; /* Center the button */
+  width: 33.33%; /* Make the button 1/3 of the page width */
+  height: 20%; /* Make the button 20% of the page height */
+  background-color: #4472c4; /* Green color */
+  color: white;
+  text-decoration: none;
+  font-size: 72px;
+  font-weight: bolder;
+}
+
+.bottom-button-container {
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+.bottom-button {
+  padding: 20px 40px;
+  border-radius: 20px;
+  margin: 0 2em 10em 2em; /* Add some space between the buttons */
+  width: 20%;
+  height: "auto";
+  background-color: gray; /* Green color */
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+}
