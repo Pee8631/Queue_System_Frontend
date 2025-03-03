@@ -11,6 +11,9 @@ export interface Queue {
   updatedAt: string
 }
 
+export interface Message {
+  message: string
+}
 
 @Component({
   selector: 'app-current-queue',
@@ -48,10 +51,10 @@ export class CurrentQueueComponent {
 
     fetch(apiUrl)
       .then(response => response.json())
-      .then((message) => {
-        console.log(message);
+      .then((res: Message) => {
+        console.log(res);
         location.reload();
-        alert(message);
+        alert(res.message);
 
       })
       .catch(error => {

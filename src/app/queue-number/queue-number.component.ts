@@ -34,6 +34,7 @@ export class QueueNumberComponent {
       .then(response => response.json())
       .then((queue: Queue) => {
         console.log(queue);
+        console.log(this.queue);
 
         // Update the component's data with the fetched queue number and date.
         this.queue = queue.QueueNumber;
